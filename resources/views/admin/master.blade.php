@@ -36,10 +36,10 @@
     </div>
 </section>
 <!--======== SCRIPT FILES =========-->
-<script src="admin/js/jquery.min.js"></script>
-<script src="admin/js/bootstrap.min.js"></script>
-<script src="admin/js/materialize.min.js"></script>
-<script src="admin/js/custom.js"></script>
+<script src="{{asset('admin/js/jquery.min.js')}}"></script>
+<script src="{{asset('admin/js/bootstrap.min.js')}}"></script>
+<script src="{{asset('admin/js/materialize.min.js')}}"></script>
+<script src="{{asset('admin/js/custom.js')}}"></script>
 </body>
 
 </html>

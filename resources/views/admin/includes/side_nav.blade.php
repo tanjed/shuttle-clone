@@ -5,7 +5,7 @@
             <li><img src="images/placeholder.jpg" alt="">
             </li>
             <li>
-                <h5>Victoria Baker <span> Santa Ana, CA</span></h5>
+                <h5>{{\Illuminate\Support\Facades\Auth::guard('admin')->user()->name}} <span> Santa Ana, CA</span></h5>
             </li>
             <li></li>
         </ul>
