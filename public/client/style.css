@@ -1,6 +1,9 @@
 body {
     font-family: "Roboto",sans-serif;
 }
+.border {
+    border: 1px solid red !important;
+}
 #app nav {
     background: linear-gradient(90deg, rgb(255 255 255 / 88%) 0%, rgb(0 0 0 / 78%) 100%, rgba(0,212,255,1) 100%);
 }
@@ -30,7 +33,7 @@ body {
 }
 
 #for_logo img {
-    width: 15%;
+    width: 28%;
 }
 
 .header-title h2 {
@@ -232,7 +235,7 @@ ul.privacy-terms {
     letter-spacing: 4px;
 }
 .for_employee {
-    font-size: 22px;
+    font-size: 18px;
 }
 #shuttle-business img {
     width: 96%;
@@ -552,6 +555,9 @@ marquee {
 .rental_img img {
     width: 15%;
 }
+#car_img img {
+    height: 705px;
+}
 
 #rental-header-section .women-header-title {
     padding: 18% 0 18% 0;
@@ -643,6 +649,9 @@ marquee {
     margin-left: -8px;
 }
 @media screen and (max-width: 570px) {
+    .mobile-nav {
+        width: 80%;
+    }
     .header-title {
         margin-left: 0px;
         margin-top: 50px;
@@ -662,8 +671,11 @@ marquee {
         padding-right: 0;
         border-bottom: 1px solid rgba(0, 0, 0, 0.5);
     }
+    #for_logo {
+        width: 50%;
+    }
     #for_logo img {
-        width: 40%;
+        width: 70% !important;
     }
     #shuttle-support {
         /* padding: 50px; */
@@ -761,11 +773,14 @@ marquee {
     #child-feature1 .col-md-4, #child-feature2 .col-md-4 {
         margin-bottom: 5%;
     }
-    #hygiene {
+    /* #hygiene {
         margin-bottom: 0px !important;
-    }
+    } */
     #shuttle-business img {
         width: 100%;
+    }
+    #check-routes h1 {
+        font-size: 25px;
     }
     .form-group #email {
         padding-bottom: 5%;
@@ -895,6 +910,9 @@ marquee {
     } 
 }
 @media screen and (min-width: 571px) and (max-width: 767px) {
+    .mobile-nav {
+        width: 90%;
+    }
     .header-title {
         margin-left: 62px;
         margin-top: 65px;
@@ -917,8 +935,11 @@ marquee {
     #header-section img {
         width: 25%;
     }
+    #for_logo {
+        width: 50%;
+    }
     #for_logo img {
-        width: 40%;
+        width: 70%;
     }
     .for_btn {
         display: flex;
@@ -986,3 +1007,35 @@ marquee {
         display: none;
     }
 }
+@media (max-width: 300px) {
+    #for_logo {
+        width: 60%;
+    }
+    #for_logo img {
+        width: 80% !important;
+    }
+    
+}
+@media (min-width: 768px) and (max-width: 1199.98px) {
+    #car_img img {
+        height: 622px;
+    }
+    #for_logo img {
+        width: 80%;
+    }
+   #trip-form {
+    border: 1px solid lightgray;
+    width: 50%;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 2px 7px 17px -4px;
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(-50%, -50%);
+    padding: 2% 0;
+    } 
+    #how-works {
+        padding: 14% 22% 0% 22%;
+    }
+ }
