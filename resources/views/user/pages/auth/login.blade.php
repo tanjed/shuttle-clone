@@ -14,7 +14,7 @@
     <div class="blog-login-in">
         <form method="POST" action="{{route('post.admin.login')}}">
             @csrf
-            <center><h1>Admin Login</h1></center>
+            <center><h1>User Login</h1></center>
 {{--            <img src="{{asset('admin/images/logo.png')}}" alt="" />--}}
             <div class="row">
                 <div class="input-field col s12">
@@ -33,7 +33,7 @@
                     <button class="waves-effect waves-light btn-large btn-log-in" style="width: 100%">Login</button>
                 </div>
             </div>
-{{--            <a href="#" class="for-pass">Forgot Password?</a>--}}
+            <a href="{{route('show.user.register')}}" class="for-pass">Sign up here</a>
         </form>
     </div>
 </div>

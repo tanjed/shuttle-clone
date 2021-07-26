@@ -14,8 +14,14 @@
     <div class="blog-login-in">
         <form method="POST" action="{{route('post.admin.login')}}">
             @csrf
-            <center><h1>Admin Login</h1></center>
-{{--            <img src="{{asset('admin/images/logo.png')}}" alt="" />--}}
+            <center><h1>User Registration</h1></center>
+            {{--            <img src="{{asset('admin/images/logo.png')}}" alt="" />--}}
+            <div class="row">
+                <div class="input-field col s12">
+                    <input name="text" type="text" class="validate">
+                    <label for="">Name</label>
+                </div>
+            </div>
             <div class="row">
                 <div class="input-field col s12">
                     <input name="email" type="text" class="validate">
@@ -30,10 +36,10 @@
             </div>
             <div class="row">
                 <div class="input-field col s12">
-                    <button class="waves-effect waves-light btn-large btn-log-in" style="width: 100%">Login</button>
+                    <button class="waves-effect waves-light btn-large btn-log-in" style="width: 100%">Register</button>
                 </div>
             </div>
-{{--            <a href="#" class="for-pass">Forgot Password?</a>--}}
+            <a href="{{route('show.user.login')}}" class="for-pass">Sign In here</a>
         </form>
     </div>
 </div>

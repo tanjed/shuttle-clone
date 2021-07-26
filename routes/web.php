@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 $routes = [
-    'client',
+    'user',
     'admin'
 ];
 foreach ($routes as $route)
